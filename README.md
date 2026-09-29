@@ -1,4 +1,4 @@
-# 🎮 GameZone Retro - HTML Challenge
+# 🚀 Age Verifier & Access Log System (`age_verifier.php`) 🆔
 
 [🇺🇸 English Version](#-english-version) | [🇧🇷 Versão em Português](#-versão-em-português)
 
@@ -6,36 +6,42 @@
 
 ## 🇺🇸 English Version
 
-### 📝 Description
-Project developed for the **GameZone Retro** HTML mini-challenge, focused on creating a compact, functional, and objective promotional page for a classic video game store.
+### 📌 Description
+A PHP project designed to handle form submissions, validate business logic, persist data in text files, and process requests via the `POST` method.
 
-### 🎯 Objective
-To build a clean and structured page using **pure HTML**, covering all essential elements requested by the challenge while maintaining a well-organized codebase.
+### 🎯 Key Features
+- **🖥️ HTML Form:** Collects **Name** and **Birth Year** from the user.  
+- **⚙️ Age Calculation:** Dynamically calculates age based on the current year.  
+- **✅ Majority Validation (18+):**  
+  - Shows a success alert in the browser.  
+  - Saves **Name** and **Age** into `log_acessos.txt`.  
+- **🚫 Minor (<18):**  
+  - Shows an access denied alert.  
 
-### 📌 Project Requirements
-The HTML code includes all core required elements:
-- **Basic Structure:** Title, explanatory paragraph, and the use of **bold** and *italic* text formatting.
-- **Item List:** Highlights of the main classic consoles available.
-- **Navigation:** External link and internal anchor link (`#precos`).
-- **Image:** Thematic retro gaming image.
-- **Pricing Table:** A clean table featuring 3 products and their respective prices.
-- **Code Quality:** Well-commented and structured code for optimal readability.
+### 📚 Concepts Applied
+- **File Handling (I/O):** Data persistence using `fopen`, `fwrite`, and `fclose`.  
+- **Form Processing:** Handling `POST` requests with `$_SERVER['REQUEST_METHOD']`.  
+- **Conditional Logic & Type Casting:** Using `(int)` for calculations and `if/else` for validation.  
 
 ---
 
 ## 🇧🇷 Versão em Português
 
-### 📝 Descrição
-Projeto desenvolvido para o mini desafio de HTML da **GameZone Retro**, focado na criação de uma página promocional compacta, funcional e objetiva para uma loja de jogos clássicos.
+### 📌 Descrição
+Projeto em PHP desenvolvido para manipulação de formulários, validação de regras de negócio, persistência de dados em arquivos de texto e processamento de requisições via método `POST`.
 
-### 🎯 Objetivo
-Criar uma página em **HTML puro** contendo todos os elementos essenciais solicitados, priorizando a funcionalidade, a organização e um código limpo.
+### 🎯 Funcionalidades
+- **🖥️ Formulário HTML:** Coleta **Nome** e **Ano de Nascimento** do usuário.  
+- **⚙️ Cálculo de Idade:** Calcula dinamicamente a idade com base no ano atual.  
+- **✅ Validação de Maioridade (18+):**  
+  - Exibe alerta de sucesso no navegador.  
+  - Salva **Nome** e **Idade** no arquivo `log_acessos.txt`.  
+- **🚫 Menor (<18):**  
+  - Exibe alerta de acesso negado.  
 
-### 📌 Requisitos do Projeto
-O código HTML atende integralmente aos elementos essenciais do desafio:
-- **Estrutura Básica:** Título, parágrafo explicativo e uso de texto em **negrito** e *itálico*.
-- **Lista de Itens:** Destaque para os principais consoles clássicos.
-- **Navegação:** Link externo e link interno por âncora (`#precos`).
-- **Imagem:** Foto temática de retro gaming.
-- **Tabela de Preços:** Tabela simples com 3 produtos e seus respectivos valores.
-- **Qualidade de Código:** Código estruturado e comentado para facilitar a leitura.
+### 📚 Conceitos Aplicados
+- **Manipulação de Arquivos (I/O):** Persistência de dados com `fopen`, `fwrite` e `fclose`.  
+- **Processamento de Formulários:** Tratamento de requisições `POST` com `$_SERVER['REQUEST_METHOD']`.  
+- **Lógica Condicional & Casting de Tipos:** Conversão `(int)` para cálculos e uso de `if/else` para validação.  
+
+---
