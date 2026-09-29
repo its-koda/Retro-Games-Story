@@ -1,4 +1,4 @@
-# 🚀 Age Verifier & Access Log System (`age_verifier.php`) 🆔
+# 🚀 Age Verifier & Access Log System 🆔
 
 [🇺🇸 English Version](#-english-version) | [🇧🇷 Versão em Português](#-versão-em-português)
 
